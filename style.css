@@ -1,0 +1,69 @@
+body{
+    background-color: antiquewhite;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+
+#content {
+    width: 100%;
+    margin: 5%;
+    margin: 0 auto; 
+    
+}
+#logo{
+    padding: 30px;
+}
+
+#logo img{
+    height: 200px;
+    width: 250px;
+    border-radius: 50%;
+
+}
+.header{
+    text-emphasis-color: white;
+    background-image: url("./assets/images-2/my-photo.JPG");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+
+.card{
+    width: 30%;
+    border: 1px solid white;
+    /* background-color: rgb(160, 160, 160); */
+}
+
+.card div{
+    padding: 25px;
+    border: 5px;
+}
+
+#skills{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card img{
+    width: 100%;
+}
+
+hr{
+    margin: 50px;
+}
+
+footer{
+    margin:20px;
+}
+
+footer a{
+    margin: 15px;
+}
+
